@@ -8,8 +8,10 @@ try:
 
     for i in list_of_numbers:
         x = int(i)
+        x=x+1
         while True:
             x = str(x)
+
             if x[::-1] == x :
                 print(f"Next palindrome for {i} is {x[::-1]}")
                 break
